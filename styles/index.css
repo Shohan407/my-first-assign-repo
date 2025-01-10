@@ -1,4 +1,5 @@
 /* font styles */
+
 .fira-sans-thin {
     font-family: "Fira Sans", serif;
     font-weight: 100;
@@ -106,7 +107,12 @@
     font-weight: 900;
     font-style: italic;
   }
-  
+  /* full bg */
+
+  .full-bg {
+    background-color: rgba(241, 241, 243, 1);
+  }
+
 /* shared style */
 
 .btn-primary {
@@ -144,7 +150,7 @@ nav {
 }
 
 .nav-title {
-    margin-left: 160px;
+    margin-left: 165px;
     font-weight: bold;
     font-size: 32px;
 }
@@ -193,6 +199,106 @@ nav li a {
     width: 480px;
     padding: 68px 48px 68px 60px; 
 }
+/* section title */
+
+.section-title{
+    font-size: 40px;
+}
+.section-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
  
 /* skills section style */
+.skills{
+    margin: 20px 160px 80px 160px;
+}
+.skills-container {
+    display: flex;
+     justify-content: space-around;
+     gap: 24px;
+}
 
+.skill {
+    padding: 40px;
+    border-radius: 16px;
+}
+.skill-color-1 {
+    background-color: #81b4fc54;
+    width: 400;
+}
+.skill-color-2 {
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.skill-color-3 {
+    background-color: rgba(247, 235, 207, 1);
+}
+
+/* btn styles */
+.btn-1 {
+    margin-top: 24px;
+    margin-bottom: 28px;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    background-color: rgba(84, 143, 245, 0.856);
+}
+
+.btn-2 {
+    margin-top: 24px;
+    margin-bottom: 28px;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    background-color: rgba(9, 161, 93, 0.822);
+}
+
+.btn-3 {
+    margin-top: 24px;
+    margin-bottom: 28px;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    background-color: rgba(255, 196, 57, 0.822);
+}
+
+/* prim minister style */
+.back-img{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 1.5% 13%;
+
+}
+.prim-minister {
+    margin: 20px 160px 80px 160px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+.minister {
+    padding: 48px 24px;
+}
+.minister-speech {
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+.dr-yunus {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+.minister-title {
+    font-size: 16px;
+}
+/* opinion Matters style */
+.opinion-matters-section {
+        
+}
