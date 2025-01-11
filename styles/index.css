@@ -141,6 +141,10 @@ body {
     background-color: #3c916959;
  
 }
+.all-btn button:hover {
+    background-color: #951ae7;
+}
+
 
 /* nav styles */
 
@@ -201,6 +205,9 @@ nav li a {
     width: 480px;
     padding: 68px 48px 68px 60px; 
 }
+.banner-content button:hover{
+    background-color: #951ae7;
+}
 /* section title */
 
 .section-title{
@@ -238,6 +245,9 @@ nav li a {
 
 .skill-color-3 {
     background-color: rgba(247, 235, 207, 1);
+}
+.skills-container button:hover {
+    background-color: #951ae7;
 }
 
 /* btn styles */
@@ -384,8 +394,12 @@ nav li a {
     font-weight: 400;
     color: rgba(14, 14, 14, 0.7);
 }
+.newses button:hover {
+    background-color: #951ae7;
+}
 
 /* today-section-style */
+
 .donate-section{
     margin: 80px 160px;
     text-align: center;
@@ -408,6 +422,9 @@ nav li a {
     display: flex;
      align-items: center;
      margin-left: 300px;
+}
+.donate-section a:hover {
+    background-color: #951ae7;
 }
 .money{
     font-size: 40px;
@@ -507,23 +524,24 @@ nav li a {
     border: none;
     border-radius: 0px 5px 5px 0px;
     cursor: pointer;
-    transition: background-color 0.3s;
+     
 }
 
 .newsletter-title button:hover {
-    background-color: #005f40;
+    background-color: purple;
 }
 /* footer style */
 .main-footer {
-    max-width: 100%;
+    max-width: 50%;
     text-align: center;
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: 500px;
 
 
 }
 
-.footer-icon {
-    gap: 50;
+.footer-icon a {
+    margin: 5px;
 }
