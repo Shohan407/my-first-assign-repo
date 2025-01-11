@@ -114,7 +114,9 @@
   }
 
 /* shared style */
-
+body {
+    margin: 0;
+}
 .btn-primary {
      
     font-weight: bold;
@@ -388,6 +390,7 @@ nav li a {
     margin: 80px 160px;
     text-align: center;
     padding: 10px;
+     
 }
 .donate-title{
     font-size:40px;
@@ -405,13 +408,12 @@ nav li a {
     display: flex;
      align-items: center;
      margin-left: 300px;
-     
 }
 .money{
     font-size: 40px;
     font-weight:bold;
     color: rgba(14, 14, 14, 0.8);
-    padding: 20px;
+    padding: 40px;
     border-radius: 16px;
     background-color: #ffffff;
     margin: 10px;
@@ -430,11 +432,11 @@ nav li a {
     background-color: #FFFFFF;
 }
 .ammount{
-    width: 92%;
+    width: 90%;
     background-color: #ffffff;
     text-align: center;
-    margin-left: 43px;
-    padding: 10px 0;
+    margin-left: 50px;
+    padding: 20px 0;
     font-size: 20px;
     font-weight: 400;
     color: rgba(14, 14, 14, 0.3);
@@ -449,6 +451,79 @@ nav li a {
     border-radius: 8px;
     font-size: 18px;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 17px 34px;
      
+}
+/* newsletter section style */
+.newsletter-title {
+    background-color: #d8f3dc;
+    padding: 80px 265px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    margin: ;
+    justify-content: center;
+    margin-left: 450px;
+    margin-bottom: 50px;
+     
+}
+
+.newsletter-title h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.newsletter-title p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.newsletter-title form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.newsletter-title input[type="email"] {
+    padding: 10px;
+    width: 70%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.newsletter-title button {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007b55;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter-title button:hover {
+    background-color: #005f40;
+}
+/* footer style */
+.main-footer {
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+}
+
+.footer-icon {
+    gap: 50;
 }
